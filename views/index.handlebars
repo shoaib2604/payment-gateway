@@ -1,0 +1,46 @@
+<section class="py-2">
+
+    <div class="row">
+
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5 font-weight-bold">Piston</h1>
+            <p class="lead "> Transfer force from expanding gas in the cylinder to the crankshaft</p>
+            <img src="/img/piston.jpg" class="img=fluid mt-3 py-5" style="width:500px; hieght:500px;" alt="">
+        <form class="mb-5"action="/charge" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_OdWVk3N9yBiBPtVX4F6nLNbQ00QL91jgOr"
+          data-amount="5000"
+          data-name="Piston"
+          data-description="Piston by Bajaj Motors"
+          data-image="/img/marketplace.png"
+          data-locale="auto">
+        </script>
+        <button type="submit" class="btn btn-outline-dark btn-danger text-white btn-lg">Buy Piston</button>
+        </form>
+        </div>
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5 font-weight-bold">Camshaft</h1>
+            <p class="lead ">Opens and closes the inlet and exhaust valves of the engine at the right time</p>
+            
+            <img src="/img/camshaft.jpg" style="width:650px; hieght:500px; " class="img=fluid mt-3 py-5" alt="">
+              <form class="mb-5"action="/charge1" method="POST">
+        <script
+          src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+          data-key="pk_test_OdWVk3N9yBiBPtVX4F6nLNbQ00QL91jgOr"
+          data-amount="6000"
+          data-name="Piston"
+          data-description="Piston by Bajaj Motors"
+          data-image="/img/marketplace.png"
+          data-locale="auto">
+        </script>
+        <button type="submit" class="btn btn-outline-dark btn-danger text-white btn-lg">Buy Camshaft</button>
+        </form>
+
+        <script>
+            document.getElementsByClassName('stripe-button-el')[0].style.display='none';
+            document.getElementsByClassName('stripe-button-el')[1].style.display='none';
+        </script>
+        </div>
+    </div>
+</section>
